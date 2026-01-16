@@ -37,7 +37,7 @@ public class Main {
         bibl.adicionarExemplar(ex2);
         bibl.adicionarExemplar(ex3);
 
-        System.out.println("Total de livros armazenados: " + bibl.totalLivrosArmazenados());
+        System.out.println("Total de livros armazenados: " + bibl.getTotalExemplaresArmazenados());
         System.out.println();
 
         // Criando usuário
