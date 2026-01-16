@@ -63,7 +63,7 @@ public class Usuario {
         return reservas;
     }
 
-    public void consultarLivros(Livro livro) {
+    public void consultarLivro(Livro livro) {
         if (livro == null) {
             throw new IllegalArgumentException("Livro não pode ser nulo");
         }

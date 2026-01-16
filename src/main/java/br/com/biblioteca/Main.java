@@ -44,7 +44,7 @@ public class Main {
         Usuario usuario1 = new Usuario("João Silva", "2023001", "joao@email.com");
 
         // Consultando livro
-        usuario1.consultarLivros(memoriasPostumas);
+        usuario1.consultarLivro(memoriasPostumas);
         System.out.println();
 
         // Realizando empréstimo
